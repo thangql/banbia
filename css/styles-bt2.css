@@ -16,6 +16,20 @@ nav ul {
   list-style: none;
   display: flex;
 }
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    margin-top: 15px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+}
 
 /* Hero Section */
 .hero {
