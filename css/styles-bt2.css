@@ -31,11 +31,38 @@ header {
 }
 
 .hero .hero-content {
+  animation: slideIn 2s ease-out forwards;
   color: black;
+}
+@keyframes slideIn1 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .hero .hero-content h1 {
   font-size: 35px;
+
   line-height: 40px;
+}
+.hero img {
+  animation: slideIn1 2s ease-out forwards;
+  width: 700px;
+  height: auto;
 }
 header .container {
   display: flex;
