@@ -1,41 +1,15 @@
-/* Header */
 header {
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-@media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  nav ul {
-    margin-top: 15px;
-  }
-
-  nav ul li {
-    margin: 0 10px;
-  }
-}
-
-/* Hero Section */
 .hero {
   height: 100vh;
-  background: url("https://via.placeholder.com/1920x1080") no-repeat
-    center/cover;
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -64,8 +38,10 @@ header {
   line-height: 40px;
 }
 header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: rgb(250, 134, 2);
-
   font-size: 20px;
   margin: 0 auto;
   width: 90%;
@@ -75,6 +51,10 @@ header .logo {
   font-weight: bolder;
   font-size: 40px;
   margin: 15px 0px 20px 25px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
 }
 header div a {
   text-decoration: none;
@@ -188,8 +168,8 @@ footer a {
   margin: 15px 0px 20px 25px;
   text-decoration: none;
 }
+
 .service-card a:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   color: black;
 }
@@ -210,13 +190,22 @@ footer a {
   line-height: 40px;
   display: flex;
 }
+.tht #vb {
+  background-color: rgb(189, 188, 188);
+  border-radius: 5px;
+  box-shadow: 10px 10px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 5px 0px;
+}
 #Main img {
   width: 600px;
   height: auto;
+  box-shadow: 10px 10px 2px 5px rgba(0, 0, 0, 0.1);
 }
 #Main .tht figcaption {
   font-size: 20px;
   text-align: center;
+  font-style: italic;
 }
 #input {
   float: right;
@@ -229,6 +218,10 @@ footer a {
   border: none;
   border-radius: 4px;
   padding: 4px 24px;
+}
+#input .button:hover {
+  transform: translateY(-2px);
+  color: aliceblue;
 }
 #input #text {
   font-size: 15px;
