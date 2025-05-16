@@ -1,0 +1,211 @@
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url("https://via.placeholder.com/1920x1080") no-repeat
+    center/cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: rgb(32, 31, 31);
+}
+
+.hero .hero-content {
+  color: black;
+}
+.hero .hero-content h1 {
+  font-size: 35px;
+  line-height: 40px;
+}
+header .container {
+  color: rgb(250, 134, 2);
+
+  font-size: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+header .logo {
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 15px 0px 20px 25px;
+}
+header div a {
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  color: rgb(255, 136, 0);
+  padding: 10px 15px;
+}
+/* .hero {
+  background-image: url(/img/beer-label-badges-retro-beers-brewery-lager-bottle-badge-and-vintage-beer-emblem-isolated-vector-illustration-set-2B1DWHP-1-1-1.jpg);
+  background-size: contain;
+  background-color: rgb(255, 254, 254);
+  color: rgb(3, 174, 241);
+} */
+.hero-btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(62, 130, 231);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+a .hero-btn {
+  font-size: 30px;
+}
+.cta-btn {
+  background-color: rgb(245, 107, 52);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 15px 0px 20px 25px;
+}
+
+.services {
+  background-color: rgb(230, 230, 230);
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 30px 60px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+}
+.hero-content {
+  margin: 0 auto;
+  line-height: 20px;
+}
+.hero-content h1 {
+  font-size: 50px;
+}
+.hero-content p {
+  font-size: 20px;
+}
+.hero-content a {
+  font-size: 18px;
+}
+
+.footer-links {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 200px;
+}
+.footer-links ul {
+  line-height: 35px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer-info {
+  margin-left: 50;
+  margin-right: auto;
+  width: 200px;
+}
+.services {
+  padding: 60px 0;
+}
+.services h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.service-card {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.service-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.service-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.service-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.service-card a {
+  background-color: rgb(245, 107, 52);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 15px 0px 20px 25px;
+  text-decoration: none;
+}
+.service-card a:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: black;
+}
+.card-btn {
+  text-decoration: none;
+  color: rgb(53, 53, 194);
+}
+.card-btn:hover {
+  text-decoration: underline;
+  color: rgb(26, 26, 245);
+}
+.services p {
+  color: rgb(170, 168, 168);
+}
+#Main .tht {
+  font-size: 20px;
+  padding: 100px 0px 0px 0px;
+  line-height: 40px;
+  display: flex;
+}
+#Main img {
+  width: 600px;
+  height: auto;
+}
+#Main .tht figcaption {
+  font-size: 20px;
+  text-align: center;
+}
