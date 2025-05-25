@@ -30,7 +30,7 @@ header {
 }
 
 header {
-  background-color: rgb(32, 31, 31);
+  background-color: rgb(0, 0, 0);
 }
 
 .hero .hero-content {
@@ -116,12 +116,19 @@ header div a {
 a .hero-btn {
   font-size: 30px;
 }
-.cta-btn {
+.fzf .cta-btn {
   background-color: rgb(245, 107, 52);
   color: white;
   padding: 10px 30px;
   border-radius: 5px;
   margin: 15px 0px 20px 25px;
+}
+.fzf {
+  display: flex;
+}
+.fzf .anh {
+  width: 58px;
+  height: 60px;
 }
 
 .services {
