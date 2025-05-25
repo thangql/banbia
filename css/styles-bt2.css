@@ -116,19 +116,13 @@ header div a {
 a .hero-btn {
   font-size: 30px;
 }
-.fzf .cta-btn {
+.cta-btn {
   background-color: rgb(245, 107, 52);
   color: white;
   padding: 10px 30px;
   border-radius: 5px;
   margin: 15px 0px 20px 25px;
-}
-.fzf {
-  display: flex;
-}
-.fzf .anh {
-  width: 58px;
-  height: 60px;
+  font-size: 18px;
 }
 
 .services {
@@ -276,7 +270,7 @@ footer a {
   color: aliceblue;
 }
 #input #text {
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 4px;
 }
 .container2 h2 {
