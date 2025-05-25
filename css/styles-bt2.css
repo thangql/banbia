@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 header {
   position: fixed;
   width: 100%;
@@ -67,7 +70,7 @@ header {
 
 .hero .hero-content h1 {
   font-size: 35px;
-
+  text-shadow: 3px 8px rgba(0, 0, 0, 0.1);
   line-height: 40px;
 }
 .hero img {
@@ -229,7 +232,7 @@ footer a {
   display: flex;
 }
 .tht p {
-  background-color: rgb(189, 188, 188);
+  background-color: rgb(224, 223, 223);
   border-radius: 5px;
   box-shadow: 10px 10px 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
