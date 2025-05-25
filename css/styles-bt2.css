@@ -289,6 +289,9 @@ footer a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: gradient 7s ease infinite;
+  background: linear-gradient(-45deg, #3ff548, #192a8b, #23a6d5, #d52323);
+  background-size: 400% 400%;
 }
 .DN {
   animation: slideIn1 2s ease-out forwards;
@@ -310,8 +313,22 @@ footer a {
   font-size: 20px;
   border-radius: 10px;
   padding: 10px 15px;
+  background-color: coral;
+  color: white;
 }
 .dn h1 {
+  color: white;
   font-size: 60px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
